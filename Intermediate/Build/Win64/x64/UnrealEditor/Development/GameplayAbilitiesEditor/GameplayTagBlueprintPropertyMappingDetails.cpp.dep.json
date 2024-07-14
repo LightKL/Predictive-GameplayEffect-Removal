@@ -1,0 +1,32 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilitieseditor\\private\\gameplaytagblueprintpropertymappingdetails.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\test\\intermediate\\build\\win64\\x64\\testeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gameplayabilitieseditor\\definitions.gameplayabilitieseditor.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilitieseditor\\private\\gameplaytagblueprintpropertymappingdetails.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilities\\public\\gameplayeffecttypes.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilities\\public\\activegameplayeffecthandle.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\activegameplayeffecthandle.generated.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilities\\public\\gameplayeffectattributecapturedefinition.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilities\\public\\attributeset.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\attributeset.generated.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\gameplayeffectattributecapturedefinition.generated.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\uht\\gameplaytagcontainer.generated.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\gameplayeffecttypes.generated.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\editor\\propertyeditor\\public\\detailwidgetrow.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\editor\\propertyeditor\\public\\idetailpropertyrow.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\editor\\propertyeditor\\public\\detailcategorybuilder.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\editor\\propertyeditor\\public\\idetailcustomnodebuilder.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\editor\\propertyeditor\\public\\detailbuildertypes.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\editor\\propertyeditor\\public\\propertyeditorcopypaste.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\editor\\propertyeditor\\public\\idetailchildrenbuilder.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

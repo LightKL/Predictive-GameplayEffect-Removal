@@ -1,0 +1,16 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilities\\private\\gameplayabilityblueprint.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\test\\intermediate\\build\\win64\\x64\\testeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gameplayabilities\\definitions.gameplayabilities.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilities\\public\\gameplayabilityblueprint.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\gameplayabilityblueprint.generated.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\gameplayabilityblueprint.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

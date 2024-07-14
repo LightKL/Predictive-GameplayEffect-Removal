@@ -1,0 +1,20 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\a\\UnrealGame\\Shipping\\GameplayAbilities\\Module.GameplayAbilities.1.cpp.o",
+		"..\\..\\..\\a\\UnrealGame\\Shipping\\GameplayAbilities\\Module.GameplayAbilities.2.cpp.o",
+		"..\\..\\..\\a\\UnrealGame\\Shipping\\GameplayAbilities\\Module.GameplayAbilities.3.cpp.o",
+		"..\\..\\..\\a\\UnrealGame\\Shipping\\GameplayAbilities\\Module.GameplayAbilities.4.cpp.o",
+		"..\\..\\..\\a\\UnrealGame\\Shipping\\GameplayAbilities\\Module.GameplayAbilities.1.cpp.o",
+		"..\\..\\..\\a\\UnrealGame\\Shipping\\GameplayAbilities\\Module.GameplayAbilities.2.cpp.o",
+		"..\\..\\..\\a\\UnrealGame\\Shipping\\GameplayAbilities\\Module.GameplayAbilities.3.cpp.o",
+		"..\\..\\..\\a\\UnrealGame\\Shipping\\GameplayAbilities\\Module.GameplayAbilities.4.cpp.o",
+		"..\\..\\..\\x\\UnrealGame\\Shipping\\GameplayAbilities\\Module.GameplayAbilities.1.cpp.o",
+		"..\\..\\..\\x\\UnrealGame\\Shipping\\GameplayAbilities\\Module.GameplayAbilities.2.cpp.o",
+		"..\\..\\..\\x\\UnrealGame\\Shipping\\GameplayAbilities\\Module.GameplayAbilities.3.cpp.o",
+		"..\\..\\..\\x\\UnrealGame\\Shipping\\GameplayAbilities\\Module.GameplayAbilities.4.cpp.o",
+		"..\\..\\..\\x\\UnrealGame\\Shipping\\GameplayAbilities\\Module.GameplayAbilities.1.cpp.o",
+		"..\\..\\..\\x\\UnrealGame\\Shipping\\GameplayAbilities\\Module.GameplayAbilities.2.cpp.o",
+		"..\\..\\..\\x\\UnrealGame\\Shipping\\GameplayAbilities\\Module.GameplayAbilities.3.cpp.o",
+		"..\\..\\..\\x\\UnrealGame\\Shipping\\GameplayAbilities\\Module.GameplayAbilities.4.cpp.o"
+	]
+}

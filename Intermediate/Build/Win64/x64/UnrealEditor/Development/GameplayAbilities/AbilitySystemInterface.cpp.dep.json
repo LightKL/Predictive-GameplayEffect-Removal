@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilities\\private\\abilitysysteminterface.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\test\\intermediate\\build\\win64\\x64\\testeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gameplayabilities\\definitions.gameplayabilities.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysysteminterface.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysysteminterface.generated.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysystemreplicationproxyinterface.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysystemreplicationproxyinterface.generated.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysysteminterface.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

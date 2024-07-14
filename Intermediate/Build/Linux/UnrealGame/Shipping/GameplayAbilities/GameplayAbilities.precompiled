@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\GameplayAbilities\\Module.GameplayAbilities.1.cpp.o",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\GameplayAbilities\\Module.GameplayAbilities.2.cpp.o",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\GameplayAbilities\\Module.GameplayAbilities.3.cpp.o",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\GameplayAbilities\\Module.GameplayAbilities.4.cpp.o"
+	]
+}

@@ -1,0 +1,1 @@
+#include "D:/Unreal Projects/Test/Plugins/GameplayAbilities/Source/GameplayAbilities/Public/GameplayEffectComponents/AdditionalEffectsGameplayEffectComponent.h"

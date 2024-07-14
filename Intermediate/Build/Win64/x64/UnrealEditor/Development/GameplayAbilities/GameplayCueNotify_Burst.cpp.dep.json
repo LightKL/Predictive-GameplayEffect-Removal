@@ -1,0 +1,33 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilities\\private\\gameplaycuenotify_burst.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\test\\intermediate\\build\\win64\\x64\\testeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gameplayabilities\\definitions.gameplayabilities.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilities\\public\\gameplaycuenotify_burst.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilities\\public\\gameplaycuenotify_static.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\uht\\gameplaytagcontainer.generated.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilities\\public\\gameplayeffecttypes.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilities\\public\\activegameplayeffecthandle.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\activegameplayeffecthandle.generated.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilities\\public\\gameplayeffectattributecapturedefinition.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilities\\public\\attributeset.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\attributeset.generated.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\gameplayeffectattributecapturedefinition.generated.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\gameplayeffecttypes.generated.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\gameplaycuenotify_static.generated.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilities\\public\\gameplaycuenotifytypes.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\gameplaycuenotifytypes.generated.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\gameplaycuenotify_burst.generated.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\misc\\datavalidation.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\coreuobject\\uht\\datavalidation.generated.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\gameplaycuenotify_burst.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilitieseditor\\private\\gameplayabilitieseditor.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\test\\intermediate\\build\\win64\\x64\\testeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gameplayabilitieseditor\\definitions.gameplayabilitieseditor.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilitieseditor\\public\\gameplayabilitieseditor.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\editor\\kismet\\public\\blueprinteditor.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\editor\\kismet\\public\\blueprinteditormodule.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\editor\\unrealed\\public\\workfloworientedapp\\workflowcentricapplication.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\editor\\kismet\\public\\findinblueprints.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\editor\\kismet\\public\\findinblueprintmanager.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\kismet\\uht\\findinblueprintmanager.generated.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\developer\\merge\\public\\merge.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\editor\\kismet\\public\\skismetinspector.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\runtime\\slate\\public\\framework\\text\\slatehyperlinkrun.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\runtime\\slate\\public\\framework\\text\\ilayoutblock.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\runtime\\slate\\public\\framework\\text\\irunrenderer.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\runtime\\slate\\public\\framework\\text\\islaterun.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\editor\\propertyeditor\\public\\istructuredetailsview.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\developer\\sourcecontrol\\public\\sourcecontroloperations.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\developer\\sourcecontrol\\public\\isourcecontrolchangelist.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\developer\\sourcecontrol\\public\\sourcecontroloperationbase.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\developer\\sourcecontrol\\public\\isourcecontroloperation.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\developer\\sourcecontrol\\public\\sourcecontrolresultinfo.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\developer\\sourcecontrol\\public\\sourcecontrolpreferences.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\sourcecontrol\\uht\\sourcecontrolpreferences.generated.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\editor\\unrealed\\public\\workfloworientedapp\\workflowtabfactory.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\editor\\unrealed\\public\\workfloworientedapp\\workflowtabmanager.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\editor\\unrealed\\public\\editorreimporthandler.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilities\\public\\gameplayabilityblueprint.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\gameplayabilityblueprint.generated.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilitieseditor\\public\\gameplayabilitygraphschema.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilitieseditor\\uht\\gameplayabilitygraphschema.generated.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\editor\\unrealed\\public\\kismet2\\blueprinteditorutils.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\editor\\classviewer\\public\\classviewermodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

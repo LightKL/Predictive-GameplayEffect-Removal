@@ -1,0 +1,31 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilities\\private\\scalablefloat.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\test\\intermediate\\build\\win64\\x64\\testeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gameplayabilities\\definitions.gameplayabilities.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilities\\public\\scalablefloat.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\plugins\\runtime\\dataregistry\\source\\dataregistry\\public\\dataregistryid.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\plugins\\runtime\\dataregistry\\intermediate\\build\\win64\\unrealeditor\\inc\\dataregistry\\uht\\dataregistryid.generated.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\scalablefloat.generated.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\objectlibrary.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\objectlibrary.generated.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysystemlog.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\plugins\\runtime\\dataregistry\\source\\dataregistry\\public\\dataregistrysubsystem.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\plugins\\runtime\\dataregistry\\source\\dataregistry\\public\\dataregistry.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\plugins\\runtime\\dataregistry\\source\\dataregistry\\public\\dataregistrytypes.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\uht\\gameplaytagcontainer.generated.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\plugins\\runtime\\dataregistry\\intermediate\\build\\win64\\unrealeditor\\inc\\dataregistry\\uht\\dataregistrytypes.generated.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\plugins\\runtime\\dataregistry\\intermediate\\build\\win64\\unrealeditor\\inc\\dataregistry\\uht\\dataregistry.generated.h",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\plugins\\runtime\\dataregistry\\intermediate\\build\\win64\\unrealeditor\\inc\\dataregistry\\uht\\dataregistrysubsystem.generated.h",
+            "d:\\unreal projects\\test\\plugins\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\scalablefloat.gen.cpp",
+            "d:\\epic\\unreal\\ue_5.4\\engine\\source\\editor\\unrealed\\public\\editorreimporthandler.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
