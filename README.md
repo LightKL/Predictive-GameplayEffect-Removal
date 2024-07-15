@@ -10,4 +10,4 @@ So Immunity registers and unregisters queries dynamically and AdditionalEffects 
 
 There is some adjustements to FActiveGameplayEffect with a new FPredictionKey that is living client side. There are also some changes on how these AGEs replicate (PreReplicatedRemove and PostReplicatedAdd).
 
-There is still work on progress 
+Still a work in progress 
