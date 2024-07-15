@@ -1391,9 +1391,6 @@ struct GAMEPLAYABILITIES_API FActiveGameplayEffect : public FFastArraySerializer
 	bool bIsInhibited = true;
 
 	UPROPERTY(NotReplicated)
-	bool bRemovedPredictively = false;
-
-	UPROPERTY(NotReplicated)
 	FPredictionKey PredictiveRemovalKey;
 
 	/** When replicated down, we cue the GC events until the entire list of active gameplay effects has been received */

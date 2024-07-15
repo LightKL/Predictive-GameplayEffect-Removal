@@ -61,8 +61,8 @@ struct Z_Construct_UClass_UImmunityGameplayEffectComponent_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UImmunityGameplayEffectComponent_Statics::NewProp_ImmunityQueries_Inner = { "ImmunityQueries", nullptr, (EPropertyFlags)0x0000008000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGameplayEffectQuery, METADATA_PARAMS(0, nullptr) }; // 658050338
-const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UImmunityGameplayEffectComponent_Statics::NewProp_ImmunityQueries = { "ImmunityQueries", nullptr, (EPropertyFlags)0x0010008000010015, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UImmunityGameplayEffectComponent, ImmunityQueries), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ImmunityQueries_MetaData), NewProp_ImmunityQueries_MetaData) }; // 658050338
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UImmunityGameplayEffectComponent_Statics::NewProp_ImmunityQueries_Inner = { "ImmunityQueries", nullptr, (EPropertyFlags)0x0000008000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGameplayEffectQuery, METADATA_PARAMS(0, nullptr) }; // 3985615183
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UImmunityGameplayEffectComponent_Statics::NewProp_ImmunityQueries = { "ImmunityQueries", nullptr, (EPropertyFlags)0x0010008000010015, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UImmunityGameplayEffectComponent, ImmunityQueries), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ImmunityQueries_MetaData), NewProp_ImmunityQueries_MetaData) }; // 3985615183
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UImmunityGameplayEffectComponent_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UImmunityGameplayEffectComponent_Statics::NewProp_ImmunityQueries_Inner,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UImmunityGameplayEffectComponent_Statics::NewProp_ImmunityQueries,
@@ -108,10 +108,10 @@ UImmunityGameplayEffectComponent::~UImmunityGameplayEffectComponent() {}
 struct Z_CompiledInDeferFile_FID_Unreal_Projects_Test_Plugins_GameplayAbilities_Source_GameplayAbilities_Public_GameplayEffectComponents_ImmunityGameplayEffectComponent_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UImmunityGameplayEffectComponent, UImmunityGameplayEffectComponent::StaticClass, TEXT("UImmunityGameplayEffectComponent"), &Z_Registration_Info_UClass_UImmunityGameplayEffectComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UImmunityGameplayEffectComponent), 1821259568U) },
+		{ Z_Construct_UClass_UImmunityGameplayEffectComponent, UImmunityGameplayEffectComponent::StaticClass, TEXT("UImmunityGameplayEffectComponent"), &Z_Registration_Info_UClass_UImmunityGameplayEffectComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UImmunityGameplayEffectComponent), 3958827610U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_Test_Plugins_GameplayAbilities_Source_GameplayAbilities_Public_GameplayEffectComponents_ImmunityGameplayEffectComponent_h_3390595(TEXT("/Script/GameplayAbilities"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_Test_Plugins_GameplayAbilities_Source_GameplayAbilities_Public_GameplayEffectComponents_ImmunityGameplayEffectComponent_h_3405863982(TEXT("/Script/GameplayAbilities"),
 	Z_CompiledInDeferFile_FID_Unreal_Projects_Test_Plugins_GameplayAbilities_Source_GameplayAbilities_Public_GameplayEffectComponents_ImmunityGameplayEffectComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_Test_Plugins_GameplayAbilities_Source_GameplayAbilities_Public_GameplayEffectComponents_ImmunityGameplayEffectComponent_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

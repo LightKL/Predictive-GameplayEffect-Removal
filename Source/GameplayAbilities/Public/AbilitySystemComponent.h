@@ -166,8 +166,6 @@ class GAMEPLAYABILITIES_API UAbilitySystemComponent : public UGameplayTasksCompo
 
 	FActiveGameplayEffect* GetActiveEffectWithPredictionKey(const FPredictionKey& PredictionKey) const;
 
-	FPredictionKey GetPredictionKeyWithHandle(FActiveGameplayEffectHandle Handle) const;
-
 	// END OF CUSTOM GE REMOVAL PREDICTION
 	
 	/**

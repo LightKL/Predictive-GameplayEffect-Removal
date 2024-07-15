@@ -287,6 +287,11 @@ DECLARE_DELEGATE(FPredictionKeyEvent);
  *	
  */
 
+/** To me, its seems more logical that each key should have its own behavior
+	rather than one single way to deal with them. For instance, all the system 
+	is actually on the 0 bitmask (EDependentChainBehavior::OlderAcceptRejectNewer)
+	where some keys would want to alter that default behavior 
+*/
 UENUM()
 enum class EDependentChainBehavior : uint8
 {

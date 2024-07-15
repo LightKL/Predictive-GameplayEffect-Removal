@@ -2670,15 +2670,11 @@ void FActiveGameplayEffect::PostReplicatedAdd(const struct FActiveGameplayEffect
 		// PredictionKey will only be valid on the client that predicted it. So if this has a valid PredictionKey, we can assume we already predicted it and shouldn't invoke GameplayCues.
 		// We may need to do more bookkeeping here in the future. Possibly give the predicted gameplayeffect a chance to pass something off to the new replicated gameplay effect.
 		
-		//if (InArray.HasPredictedEffectWithPredictedKey(PredictionKey))
-		//{
-		//	ShouldInvokeGameplayCueEvents = false;
-		//}
+		// Find the AGE duplicate to know if OnRemove logic should be triggered (Cues & removal)
 		const FActiveGameplayEffect* PredictedEffect = InArray.GetPredictedEffectWithPredictionKey(PredictionKey, this, true);
 		if (PredictedEffect)
 		{
 			ShouldInvokeGameplayCueEvents = false;
-			bRemovedPredictively = PredictedEffect->bRemovedPredictively;
 			PredictiveRemovalKey = PredictedEffect->PredictiveRemovalKey;
 		}
 	}

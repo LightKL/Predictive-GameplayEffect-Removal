@@ -1,0 +1,23 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-GameplayAbilities.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Projects\Test\Intermediate\Build\Win64\x64\TestEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"D:\Unreal Projects\Test\Plugins\GameplayAbilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayAbilities\Module.GameplayAbilities.1.cpp.obj"
+"D:\Unreal Projects\Test\Plugins\GameplayAbilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayAbilities\Module.GameplayAbilities.2.cpp.obj"
+"D:\Unreal Projects\Test\Plugins\GameplayAbilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayAbilities\Module.GameplayAbilities.3.cpp.obj"
+"D:\Unreal Projects\Test\Plugins\GameplayAbilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayAbilities\Module.GameplayAbilities.4.cpp.obj"
+"D:\Unreal Projects\Test\Plugins\GameplayAbilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayAbilities\AbilitySystemComponent.cpp.obj"
+"D:\Unreal Projects\Test\Plugins\GameplayAbilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayAbilities\GameplayEffect.cpp.obj"
+"D:\Unreal Projects\Test\Plugins\GameplayAbilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayAbilities\GameplayPrediction.cpp.obj"
+"D:\Unreal Projects\Test\Plugins\GameplayAbilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayAbilities\ImmunityGameplayEffectComponent.cpp.obj"
+"D:\Unreal Projects\Test\Plugins\GameplayAbilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayAbilities\TargetTagRequirementsGameplayEffectComponent.cpp.obj"
+"D:\Unreal Projects\Test\Plugins\GameplayAbilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayAbilities\GameplayAbilities.init.gen.cpp.obj"
+"D:\Unreal Projects\Test\Plugins\GameplayAbilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayAbilities\ImmunityGameplayEffectComponent.gen.cpp.obj"
+"D:\Unreal Projects\Test\Plugins\GameplayAbilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayAbilities\RemoveOtherGameplayEffectComponent.gen.cpp.obj"
+"D:\Unreal Projects\Test\Plugins\GameplayAbilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayAbilities\Default.rc2.res"
+/OUT:"D:\Unreal Projects\Test\Plugins\GameplayAbilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayAbilities\UnrealEditor-GameplayAbilities.lib"

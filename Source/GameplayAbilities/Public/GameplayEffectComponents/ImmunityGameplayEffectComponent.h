@@ -34,10 +34,13 @@ protected:
 	/** We register with the AbilitySystemComponent to try and block any GESpecs we think we should be immune to */
 	bool AllowGameplayEffectApplication(const FActiveGameplayEffectsContainer& ActiveGEContainer, const FGameplayEffectSpec& GESpecToConsider, FActiveGameplayEffectHandle ImmunityActiveGE) const;
 
+	/** Wrapper function to register immunity queries when needed */
 	void RegisterGameplayEffectImmunity(UAbilitySystemComponent* OwnerASC, FActiveGameplayEffect& ActiveGE) const;
 	
-	void OnGameplayEffectImmunity(UAbilitySystemComponent* OwnerASC, FActiveGameplayEffect* ActiveGE) const;
+	/** We need to register a callback when removal is mispredicted */
+	void OnGameplayEffectRemovalFailed(UAbilitySystemComponent* OwnerASC, FActiveGameplayEffect* ActiveGE) const;
 
+	/** Callback for the removal of the GE. This is where we bind the mispredict. This used to be a lambda */
 	void OnGameplayEffectRemoved(const FGameplayEffectRemovalInfo& RemovalInfo, UAbilitySystemComponent* OwnerASC, FDelegateHandle QueryToRemove) const;
 
 public:

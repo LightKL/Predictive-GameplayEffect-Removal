@@ -143,9 +143,6 @@ void UAbilitySystemComponent::EnableGameplayEffect(FActiveGameplayEffect& Active
 	FScopedActiveGameplayEffectLock ScopeLockActiveGameplayEffects(ActiveGameplayEffects);
 	FScopedAggregatorOnDirtyBatch	AggregatorOnDirtyBatcher;
 
-	// Set the Predictive Remove flag to ensure proper workflow in the ActiveGE
-	//ActiveEffect.bRemovedPredictively = false;
-
 	// Make a copy of the key to allow reject delegates
 	FPredictionKey RemovalKey = ActiveEffect.PredictiveRemovalKey;
 
@@ -165,9 +162,6 @@ void UAbilitySystemComponent::DisableGameplayEffect(FActiveGameplayEffect& Activ
 	// Scope locks for the AGE array and the OnDirty aggregators calls 
 	FScopedActiveGameplayEffectLock ScopeLockActiveGameplayEffects(ActiveGameplayEffects);
 	FScopedAggregatorOnDirtyBatch	AggregatorOnDirtyBatcher;
-
-	// Set the Predictive Remove flag to ensure proper workflow in the ActiveGE
-	//ActiveEffect.bRemovedPredictively = true;
 
 	// Make a new prediction key. For now, this does not use the base at all.
 	// But this is possible that nested removals cases would need some sort of 
@@ -204,23 +198,6 @@ FActiveGameplayEffect* UAbilitySystemComponent::GetActiveEffectWithPredictionKey
 	}
 
 	return nullptr;
-}
-
-FPredictionKey UAbilitySystemComponent::GetPredictionKeyWithHandle(FActiveGameplayEffectHandle Handle) const
-{
-	// Handle.IsValid() does not tell if this is really valid but if its returning false
-	// It avoids further calls that won't give us an active GE
-	if (Handle.IsValid())
-	{
-		// Grab the prediction key if there 
-		const FActiveGameplayEffect* ActiveGE = GetActiveGameplayEffect(Handle);
-		if (ActiveGE)
-		{
-			return ActiveGE->PredictionKey;
-		}
-	}
-
-	return FPredictionKey();
 }
 
 bool UAbilitySystemComponent::HasAttributeSetForAttribute(FGameplayAttribute Attribute) const

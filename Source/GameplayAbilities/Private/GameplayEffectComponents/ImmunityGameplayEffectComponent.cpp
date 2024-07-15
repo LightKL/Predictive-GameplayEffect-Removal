@@ -34,8 +34,7 @@ void UImmunityGameplayEffectComponent::RegisterGameplayEffectImmunity(UAbilitySy
 	ActiveGE.EventSet.OnEffectRemoved.AddUObject(this, &ThisClass::OnGameplayEffectRemoved, OwnerASC, BoundQuery.GetHandle());
 }
 
-void UImmunityGameplayEffectComponent::OnGameplayEffectImmunity(UAbilitySystemComponent* OwnerASC,
-	FActiveGameplayEffect* ActiveGE) const
+void UImmunityGameplayEffectComponent::OnGameplayEffectRemovalFailed(UAbilitySystemComponent* OwnerASC, FActiveGameplayEffect* ActiveGE) const
 {
 	if (ActiveGE)
 	{
@@ -50,6 +49,7 @@ void UImmunityGameplayEffectComponent::OnGameplayEffectImmunity(UAbilitySystemCo
 
 void UImmunityGameplayEffectComponent::OnGameplayEffectRemoved(const FGameplayEffectRemovalInfo& RemovalInfo, UAbilitySystemComponent* OwnerASC, FDelegateHandle QueryToRemove) const
 {
+	// Remove the immunity query
 	if (ensure(IsValid(OwnerASC)))
 	{
 		TArray<FGameplayEffectApplicationQuery>& GEAppQueries = OwnerASC->GameplayEffectApplicationQueries;
@@ -72,9 +72,10 @@ void UImmunityGameplayEffectComponent::OnGameplayEffectRemoved(const FGameplayEf
 		
 		if (!bAuthority && bCanPredict)
 		{
+			// Bind to rejected delegate if we mispredicted removal
 			FPredictionKey RemovalKey = ActiveGE->PredictiveRemovalKey;
+			RemovalKey.NewRejectedDelegate().BindUObject(this, &UImmunityGameplayEffectComponent::OnGameplayEffectRemovalFailed, OwnerASC, ActiveGE);
 			UE_LOG(LogTemp, Warning, TEXT("Removal key : %s"), *RemovalKey.ToString());
-			RemovalKey.NewRejectedDelegate().BindUObject(this, &UImmunityGameplayEffectComponent::OnGameplayEffectImmunity, OwnerASC, ActiveGE);
 		}
 	}
 }
